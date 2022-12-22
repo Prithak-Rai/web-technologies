@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+.image img{
+    border-radius: 50%;
+    width:auto;
+    height: 600px;
+    background-size: cover;
+    margin-left: 35%;
+    margin-right:35%;
+    margin-top: 5%;
+}
