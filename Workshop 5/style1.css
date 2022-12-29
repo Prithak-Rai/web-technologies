@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Russo+One&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+*/
+
+/* Set the box-sizing for all elements to border-box */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+    height: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 30%;
+  background-color: rgb(15, 29, 25);
+  padding: 5%;
+  color: #ffffff;
+}
+.discription{
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: 'Prosto One', cursive;
+}
+h2 {
+    font-size: 45px;
+  margin-bottom: 100px;
+  font-weight: 200;
+  font-family: 'Russo One', sans-serif;
+}
+img{
+    width: 70%;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 20px;
+}
+.button1{
+    margin-top:10px;
+}
+.button1 a {
+    display: inline-block;
+    padding: 10px 50px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(188, 26, 26);
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+}
+.button1 a:hover {
+    border-radius: 30px;
+    background: rgb(188, 26, 26);
+    color: #fff;
+  }
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: rgb(188, 26, 26);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  border-radius: 30px;
+  background: #fff;
+  color: rgb(188, 26, 26);
+}
+
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+
+*/
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .content-wrapper,
+  figure {
+    width: 100%;
+  }
+
+  figure {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
+/*  */
