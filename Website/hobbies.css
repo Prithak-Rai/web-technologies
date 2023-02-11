@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height:80px;
+    line-height:80px;
+    z-index:111;
+    background-color: #0077B6;
+}
+.logo{
+    display: flex;
+    font-size:40px;
+    font-weight: 800;
+    color:beige;
+    letter-spacing: 3px;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size:70px;
+    color:cadetblue;
+}
+.navItems{
+    display:flex
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size:25px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color:#03045E;
+}
+.links a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 25px 10px;
+}
+/*Hobbies*/
+.about-section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-section{
+    background: url(program.png) no-repeat left;
+    background-size: 55%;
+   
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+@media screen and(max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and(max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height:80px;
+    line-height:80px;
+    z-index:111;
+    background-color: #0077B6;
+}
+.logo{
+    display: flex;
+    font-size:40px;
+    font-weight: 800;
+    color:beige;
+    letter-spacing: 3px;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+b{
+    font-size:70px;
+    color:cadetblue;
+}
+.navItems{
+    display:flex
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size:25px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color:#03045E;
+}
+.links a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 25px 10px;
+}
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.contact-box h1{
+    text-align: center;
+}
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    boirder-radius: 50px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #47a8c3;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
